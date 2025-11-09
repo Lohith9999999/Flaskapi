@@ -10,6 +10,7 @@ SCALER_PATH = os.path.join(os.path.dirname(__file__), "scaler.pkl")
 FEATURES_PATH = os.path.join(os.path.dirname(__file__), "feature_names.pkl")
 
 # Load model, scaler and feature names if available
+
 model = None
 scaler = None
 feature_names = None
