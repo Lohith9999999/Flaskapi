@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; margin: 20px; }
+.container { max-width: 680px; margin: auto; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin: 12px 0; }
+.field label { display: block; font-size: 0.9rem; margin-bottom: 4px; }
+input[type="number"] { width: 100%; padding: 6px; box-sizing: border-box; }
+button { padding: 8px 14px; margin-top: 8px; }
+.error { color: darkred; margin-top: 12px; }
+.result { margin-top: 12px; background:#f3f3f3; padding:8px; }
