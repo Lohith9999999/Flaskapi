@@ -80,7 +80,7 @@ def health():
 @app.route("/predict", methods=["POST"])
 def predict():
     data = request.get_json(force=True, silent=True)
-    if not data:
+    if not data: 
         abort(400, "JSON body required")
     X = _prepare_array_from_payload(data)
     if scaler is not None:
